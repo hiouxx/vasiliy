@@ -1,0 +1,26 @@
+{
+  "name": "syskabots",
+  "version": "2.0.0",
+  "description": "SyskaBots - Minecraft bot system",
+  "main": "1.js",
+  "scripts": {
+    "start": "node 1.js"
+  },
+  "dependencies": {
+    "flayercaptcha": "^1.0.0",
+    "mineflayer": "^4.14.1",
+    "mineflayer-pathfinder": "^2.4.5"
+  },
+  "pkg": {
+    "scripts": [
+      "node_modules/**/*.js"
+    ],
+    "assets": [],
+    "targets": [
+      "node16-win-x64"
+    ]
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^5.4.1"
+  }
+}
